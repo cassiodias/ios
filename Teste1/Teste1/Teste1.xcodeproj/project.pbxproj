@@ -16,6 +16,7 @@
 		1D4DB9D5147B03190048583B /* CDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D4DB9D4147B03190048583B /* CDAppDelegate.m */; };
 		1D4DB9D8147B03190048583B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D4DB9D6147B03190048583B /* MainStoryboard.storyboard */; };
 		1D4DB9DB147B03190048583B /* CDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D4DB9DA147B03190048583B /* CDViewController.m */; };
+		1DA183BE147C4DEA0092B502 /* CDAluno.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA183BD147C4DEA0092B502 /* CDAluno.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,8 @@
 		1D4DB9D7147B03190048583B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		1D4DB9D9147B03190048583B /* CDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDViewController.h; sourceTree = "<group>"; };
 		1D4DB9DA147B03190048583B /* CDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDViewController.m; sourceTree = "<group>"; };
+		1DA183BC147C4DEA0092B502 /* CDAluno.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDAluno.h; sourceTree = "<group>"; };
+		1DA183BD147C4DEA0092B502 /* CDAluno.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDAluno.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				1D4DB9CB147B03190048583B /* Supporting Files */,
 				1D0643E6147B19EE00C6AD1B /* CDPessoa.h */,
 				1D0643E7147B19EE00C6AD1B /* CDPessoa.m */,
+				1DA183BC147C4DEA0092B502 /* CDAluno.h */,
+				1DA183BD147C4DEA0092B502 /* CDAluno.m */,
 			);
 			path = Teste1;
 			sourceTree = "<group>";
@@ -169,6 +174,7 @@
 				1D4DB9D5147B03190048583B /* CDAppDelegate.m in Sources */,
 				1D4DB9DB147B03190048583B /* CDViewController.m in Sources */,
 				1D0643E8147B19EE00C6AD1B /* CDPessoa.m in Sources */,
+				1DA183BE147C4DEA0092B502 /* CDAluno.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -15,14 +15,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-   CDPessoa *pessoa = [[CDPessoa alloc] init];
+    CDPessoa *pessoa = [[CDPessoa alloc] initComNome:@"Cassio Dias"];
     
-   [pessoa setPeso:80.4 idade:30];
-   NSLog(@"Idade = %u e Peso = %f",[pessoa idade],[pessoa peso]);
+    [pessoa setPeso:40.0 idade:30];
+    NSLog(@"Idade = %u e Peso = %2.f Nome= %@",[pessoa idade],[pessoa peso], [pessoa nome]);
     
     return YES;
 }
-							
+
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     /*

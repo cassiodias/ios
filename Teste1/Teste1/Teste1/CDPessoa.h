@@ -9,15 +9,19 @@
 #import <Foundation/Foundation.h>
 
 @interface CDPessoa : NSObject {
-    //Atributos da classe
+    // Atributos da classe
     NSInteger idade;
     float peso;
+    NSString *nome;
 }
 
-- (void) setIdade:(NSInteger)_idade;
+- (id)initComNome:(NSString*)n;
+
+- (void)setIdade:(NSInteger)_idade;
 - (NSInteger)idade;
-- (void) setPeso:(float)_peso;
+- (void)setPeso:(float)_peso;
 - (float)peso;
-- (void)setPesoEIdade:(float)_peso :(NSInteger)_idade;
+- (void)setPeso:(float)_peso idade:(NSInteger)_idade;
+- (NSString *)nome; //retorna um ponteiro de NSString
 
 @end
