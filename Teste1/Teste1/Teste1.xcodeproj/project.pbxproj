@@ -17,6 +17,7 @@
 		1D4DB9D8147B03190048583B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D4DB9D6147B03190048583B /* MainStoryboard.storyboard */; };
 		1D4DB9DB147B03190048583B /* CDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D4DB9DA147B03190048583B /* CDViewController.m */; };
 		1DA183BE147C4DEA0092B502 /* CDAluno.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA183BD147C4DEA0092B502 /* CDAluno.m */; };
+		1DCD4A36147D9861008AB407 /* CDTreinamento.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DCD4A35147D9861008AB407 /* CDTreinamento.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		1D4DB9DA147B03190048583B /* CDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDViewController.m; sourceTree = "<group>"; };
 		1DA183BC147C4DEA0092B502 /* CDAluno.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDAluno.h; sourceTree = "<group>"; };
 		1DA183BD147C4DEA0092B502 /* CDAluno.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDAluno.m; sourceTree = "<group>"; };
+		1DCD4A34147D9861008AB407 /* CDTreinamento.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDTreinamento.h; sourceTree = "<group>"; };
+		1DCD4A35147D9861008AB407 /* CDTreinamento.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDTreinamento.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 				1D0643E7147B19EE00C6AD1B /* CDPessoa.m */,
 				1DA183BC147C4DEA0092B502 /* CDAluno.h */,
 				1DA183BD147C4DEA0092B502 /* CDAluno.m */,
+				1DCD4A34147D9861008AB407 /* CDTreinamento.h */,
+				1DCD4A35147D9861008AB407 /* CDTreinamento.m */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -191,6 +196,7 @@
 				1D4DB9DB147B03190048583B /* CDViewController.m in Sources */,
 				1D0643E8147B19EE00C6AD1B /* CDPessoa.m in Sources */,
 				1DA183BE147C4DEA0092B502 /* CDAluno.m in Sources */,
+				1DCD4A36147D9861008AB407 /* CDTreinamento.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

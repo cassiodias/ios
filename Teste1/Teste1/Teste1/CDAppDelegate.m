@@ -8,6 +8,8 @@
 
 #import "CDAppDelegate.h"
 #import "CDPessoa.h"
+#import "CDTreinamento.h"
+
 
 @implementation CDAppDelegate
 
@@ -16,19 +18,26 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     //Classe
-    CDPessoa* pessoa = [[CDPessoa alloc] initComNome:@"Cassio Dias"];
+    CDPessoa *pessoa = [[CDPessoa alloc] initComNome:@"Cassio Dias"];
     [pessoa setPeso:40.0];
     [pessoa setIdade:30];
     NSLog(@"Idade = %u e Peso = %2.f Nome= %@",[pessoa idade],[pessoa peso], [pessoa nome]);
     
+    CDTreinamento *treinamento = [[CDTreinamento alloc] init];
+    [treinamento addPessoa:pessoa];
+    
+    for (CDPessoa *pessoa in [treinamento listar]){
+        NSLog(@"Pessoa= %@", [pessoa nome]);
+    }
+    
     //Array
-    NSMutableArray* mArray = [[NSMutableArray alloc] initWithObjects:@"um",@"dois",@"tres", nil];
+    NSMutableArray *mArray = [[NSMutableArray alloc] initWithObjects:@"um",@"dois",@"tres", nil];
     NSLog(@"Valor da posicao ZERO: %@", [mArray objectAtIndex:0]);
     
     [mArray addObject:@"4"];
     
     //foreach
-    for (NSString* idx in mArray){
+    for (NSString *idx in mArray){
         NSLog(@"Valor da posicao atual: %@",idx);
     }
     
