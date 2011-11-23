@@ -17,11 +17,11 @@
 
 - (id)initComNome:(NSString*)n;
 
-- (void)setIdade:(NSInteger)_idade;
-- (NSInteger)idade;
 - (void)setPeso:(float)_peso;
 - (float)peso;
 - (void)setPeso:(float)_peso idade:(NSInteger)_idade;
 - (NSString *)nome; //retorna um ponteiro de NSString
+
+@property (assign) NSInteger idade; //indica que esse atributo gera get e set automatico
 
 @end

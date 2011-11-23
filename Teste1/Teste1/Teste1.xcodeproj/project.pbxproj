@@ -83,16 +83,12 @@
 		1D4DB9CA147B03190048583B /* Teste1 */ = {
 			isa = PBXGroup;
 			children = (
+				1D704270147D624B007B9197 /* controller */,
+				1D70426E147D623A007B9197 /* model */,
 				1D4DB9D3147B03190048583B /* CDAppDelegate.h */,
 				1D4DB9D4147B03190048583B /* CDAppDelegate.m */,
 				1D4DB9D6147B03190048583B /* MainStoryboard.storyboard */,
-				1D4DB9D9147B03190048583B /* CDViewController.h */,
-				1D4DB9DA147B03190048583B /* CDViewController.m */,
 				1D4DB9CB147B03190048583B /* Supporting Files */,
-				1D0643E6147B19EE00C6AD1B /* CDPessoa.h */,
-				1D0643E7147B19EE00C6AD1B /* CDPessoa.m */,
-				1DA183BC147C4DEA0092B502 /* CDAluno.h */,
-				1DA183BD147C4DEA0092B502 /* CDAluno.m */,
 			);
 			path = Teste1;
 			sourceTree = "<group>";
@@ -106,6 +102,26 @@
 				1D4DB9D2147B03190048583B /* Teste1-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D70426E147D623A007B9197 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				1D0643E6147B19EE00C6AD1B /* CDPessoa.h */,
+				1D0643E7147B19EE00C6AD1B /* CDPessoa.m */,
+				1DA183BC147C4DEA0092B502 /* CDAluno.h */,
+				1DA183BD147C4DEA0092B502 /* CDAluno.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		1D704270147D624B007B9197 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				1D4DB9D9147B03190048583B /* CDViewController.h */,
+				1D4DB9DA147B03190048583B /* CDViewController.m */,
+			);
+			name = controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

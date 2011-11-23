@@ -10,6 +10,8 @@
 
 @implementation CDPessoa
 
+@synthesize idade; //gera dianmicamente get set para este atributo.
+
 // construtor override
 - (id)initComNome:(NSString*)n 
 {
@@ -19,17 +21,6 @@
     }    
     return self;
 }
-
-- (void) setIdade:(NSInteger)_idade 
-{
-    idade = _idade;
-}
-
-- (NSInteger)idade 
-{
-    return idade;
-}
-
 
 - (void) setPeso:(float)_peso
 {

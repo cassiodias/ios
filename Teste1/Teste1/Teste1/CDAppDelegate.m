@@ -15,11 +15,37 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    CDPessoa *pessoa = [[CDPessoa alloc] initComNome:@"Cassio Dias"];
-    
-    [pessoa setPeso:40.0 idade:30];
+    //Classe
+    CDPessoa* pessoa = [[CDPessoa alloc] initComNome:@"Cassio Dias"];
+    [pessoa setPeso:40.0];
+    [pessoa setIdade:30];
     NSLog(@"Idade = %u e Peso = %2.f Nome= %@",[pessoa idade],[pessoa peso], [pessoa nome]);
     
+    //Array
+    NSMutableArray* mArray = [[NSMutableArray alloc] initWithObjects:@"um",@"dois",@"tres", nil];
+    NSLog(@"Valor da posicao ZERO: %@", [mArray objectAtIndex:0]);
+    
+    [mArray addObject:@"4"];
+    
+    //foreach
+    for (NSString* idx in mArray){
+        NSLog(@"Valor da posicao atual: %@",idx);
+    }
+    
+    //for comum
+    for (int y = 0; y < 3; y++) {
+        NSLog(@"y = %i", y);
+    }
+    
+    [
+     [[UIAlertView alloc] initWithTitle:@"Uepa!"
+                                                     message:@"Hello Fucking World"
+                                                    delegate:self
+                                           cancelButtonTitle:@"Ok"
+                                           otherButtonTitles:nil] show 
+    ];
+   
+       
     return YES;
 }
 
