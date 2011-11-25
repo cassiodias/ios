@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CDViewController : UIViewController
+@interface CDViewController : UIViewController <UITextFieldDelegate>
+
+@property (weak, nonatomic) IBOutlet UILabel *lblIdade;
+@property (weak, nonatomic) IBOutlet UITextField *inputNome;
+
+
+- (IBAction)tappedTouched:(id)sender;
+- (IBAction)buttonTouched:(id)sender;
 
 @end
